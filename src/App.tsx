@@ -21,14 +21,7 @@ import { ConversationScreen } from "./auth/ui/screens/ConversationScreen";
 
 function App() {
   return (
-    <Routes>
-      <Route element={<ProtectedRoute />}>
-        <Route path={AppRoutes.Home} element={<HomeScreen />} />
-      </Route>
-      <Route element={<GuestRoute />}>
-        <Route path={AppRoutes.Login} element={<LoginScreen />} />
-      </Route>
-    </Routes>
+      <ConversationScreen />
   );
 }
 
