@@ -6,7 +6,6 @@ import { AppRoutes } from "./shared/router/routes";
 import { HomeScreen } from "./auth/ui/screens/HomeScreen";
 import { ConversationScreen } from "./auth/ui/screens/ConversationScreen";
 
-
 function App() {
   return (
     <Routes>
@@ -20,6 +19,5 @@ function App() {
     </Routes>
   );
 }
-
 
 export default App;
