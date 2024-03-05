@@ -1,10 +1,9 @@
 import send from "./send.svg";
 
 export const ConversationButton = () => {
-    return (
-        <button className="text-white">
-        <img src={send} width="20px" alt="Send Icon" />
-      </button>
-    );
-  };
-  
+  return (
+    <button className="text-white w-5">
+      <img src={send} alt="Send Icon" />
+    </button>
+  );
+};
