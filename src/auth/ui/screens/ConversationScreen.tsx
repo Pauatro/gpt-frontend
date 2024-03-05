@@ -1,6 +1,6 @@
 import type { FC } from "react";
-import logo from "./logo.svg";
-import { ConversationBox } from "../ConversationBox";
+import logo from "../components/assets/logo.svg";
+import { ConversationBox } from "../components/ConversationBox";
 
 export const ConversationScreen: FC = () => {
 
